@@ -25,7 +25,7 @@ public class Cata6 {
        Statement statement= connection.createStatement();
        ResultSet resultSet= statement.executeQuery("select * from CAMBIO_EUR_A");
        while (resultSet.next()){
-           System.out.println(resultSet.getString("DIVISA")+" ");
+           System.out.print(resultSet.getString("DIVISA")+" ");
            System.out.println(resultSet.getBigDecimal("CAMBIO"));
        }
        connection.close();
