@@ -17,6 +17,7 @@ import oracle.jdbc.OracleDriver;
  */
 public class Cata6 {
     private static final String URL= "jdbc:oracle:thin:@10.22.146.232:1521:orcl";
+    //private static final String URL= "jdbc:oracle:thin:@localhost:1521:orcl";
     private static final String USER= "system";
     private static final String PASSWORD= "orcl";
     public static void main(String[] args) throws SQLException {
